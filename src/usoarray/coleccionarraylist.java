@@ -43,6 +43,11 @@ public static void main(String[] args)
              System.out.println("ERROR DE LECTURA");
          }
              
+             
+         catch(InputMismatchException e)
+         {
+        
+         }
      }
      while(true);
      
